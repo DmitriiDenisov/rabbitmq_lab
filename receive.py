@@ -1,12 +1,17 @@
 import pika
+import json
 
 connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
 channel = connection.channel()
 
 def callback(ch, method, properties, body):
-    print(" [x] Received %r" % body)
+    if properties.content_type == 'application/json':
+        d = json.loads(body.decode())
+        print(" [x] Received %r" % d)
+    else:
+        print(" [x] Received %r" % body.decode())
 
-channel.queue_declare(queue='hello')
+channel.queue_declare(queue='hello') # if not exists
 
 channel.basic_consume(queue='hello',
                       auto_ack=True,
