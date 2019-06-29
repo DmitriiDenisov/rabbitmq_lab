@@ -1,0 +1,3 @@
+- acknowledged messages 
+- multiple consumers
+- Durable queues
