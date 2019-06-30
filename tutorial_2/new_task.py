@@ -8,7 +8,7 @@ channel.queue_declare(queue='task_queue', durable=True) # durable=True => даж
 
 message = ' '.join(sys.argv[1:]) or "Six message......"
 channel.basic_publish(exchange='',
-                      routing_key='hello',
+                      routing_key='hello', # название очереди
                       body=message,
                       properties=pika.BasicProperties(
                           delivery_mode=2,  # make message persistent

@@ -11,6 +11,7 @@ result = channel.queue_declare(queue='', exclusive=False) # generate random queu
 
 queue_name = result.method.queue
 
+# A binding is a relationship between an exchange and a queue. This can be simply read as: the queue is interested in messages from this exchange.
 channel.queue_bind(exchange='logs', queue=queue_name)
 
 print(' [*] Waiting for logs. To exit press CTRL+C')
