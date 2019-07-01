@@ -1,0 +1,3 @@
+- publish/subscribe
+- multiple consumers for one message
+- generate random temporary queue
