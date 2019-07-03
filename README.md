@@ -2,6 +2,12 @@
 
 Laboratory based on https://www.rabbitmq.com/getstarted.html
 
+Lab contains 6 labs:
+![alt-text-1](https://i.ibb.co/983ZTHS/Screen-Shot-2019-07-03-at-22-34-42.png "title-1")
+
+And also lab 'tutorial_new' which shows an example with connect from another machine from the same network 
+
+
 ## Install RabbitMQ
 
 Instructions: https://tecadmin.net/install-rabbitmq-server-on-ubuntu/
