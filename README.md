@@ -8,7 +8,6 @@ Repository contains 6 labs:
 <img src="https://i.ibb.co/983ZTHS/Screen-Shot-2019-07-03-at-22-34-42.png?style=centerme">
 </p>
 
-![alt-text-1]( "title-1")
 
 And also lab 'tutorial_new' which shows an example with connect from another machine from the same network 
 
