@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+# Example of run:
+# python emit_log_topic.py "kern.critical" "A critical kernel error"  -   To emit a log with a routing key "kern.critical" type
+
 import pika
 import sys
 

@@ -1,4 +1,11 @@
 #!/usr/bin/env python
+# We'll start off with a working assumption that the routing keys of logs will have two words: "<facility>.<severity>"
+# Some examples of runs:
+# python receive_logs_topic.py "#"  -  To receive all the logs run
+# python receive_logs_topic.py "kern.*"  -  To receive all logs from the facility "kern"
+# python receive_logs_topic.py "*.critical"  -  Or if you want to hear only about "critical" logs
+# python receive_logs_topic.py "kern.*" "*.critical"  -  You can create multiple bindings
+
 import pika
 import sys
 
@@ -18,7 +25,10 @@ if not binding_keys:
 
 for binding_key in binding_keys:
     channel.queue_bind(
-        exchange='topic_logs', queue=queue_name, routing_key=binding_key)
+        exchange='topic_logs',
+        queue=queue_name,
+        routing_key=binding_key  # here it will be a regex
+    )
 
 print(' [*] Waiting for logs. To exit press CTRL+C')
 
