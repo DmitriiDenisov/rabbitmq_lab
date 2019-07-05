@@ -5,7 +5,7 @@ The tutorial implements the following queue structure:
 <img src="https://www.rabbitmq.com/img/tutorials/python-two.png?style=centerme">
 </p>
 
-Tutorial contains: 
+Tutorial contains information about: 
 - Acknowledged messages 
 - Multiple consumers
 - Durable queues and messages

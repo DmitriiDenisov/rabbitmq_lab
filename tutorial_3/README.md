@@ -5,7 +5,7 @@ The tutorial implements the following queue structure:
 <img src="https://www.rabbitmq.com/img/tutorials/exchanges.png?style=centerme">
 </p>
 
-Tutorial contains: 
+Tutorial contains information about: 
 - Publish/Subscribe
 - Multiple consumers for one message
 - Generate random temporary queue

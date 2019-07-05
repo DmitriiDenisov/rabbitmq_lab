@@ -5,9 +5,9 @@ The tutorial implements the following queue structure:
 <img src="https://www.rabbitmq.com/img/tutorials/python-one-overall.png?style=centerme">
 </p>
 
-Tutorial contains: 
-- simple send
-- simple receive
+Tutorial contains information about: 
+- Simple send
+- Simple receive
 
 Source:
 
