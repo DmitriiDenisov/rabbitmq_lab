@@ -1,2 +1,3 @@
-- How to connect from another machine (in the same network)
-Нужно только добавить credentials в pika.ConnectionParameters
+# Tutorial_new
+
+This simple example illustrates wow to connect from another machine (in the same network) to RabbitMQ's queue
