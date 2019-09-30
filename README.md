@@ -19,7 +19,7 @@ Instructions: https://tecadmin.net/install-rabbitmq-server-on-ubuntu/
 Default port of RabbitMQ: 15672. I.e full url would be http://localhost:15672/
 
 if you don’t connect to Rabbit from localhost: ```http://[your droplet’s IP]:15672/``` then you have to create a user, instructions:
-https://danielpdev.io/rabbitmq-default-user-guest-not-working/
+https://danielpdev.io/get-started-with-rabbitmq-using-reactjs
 
 ## Commands
 ```rabbitmqctl stop ``` - stops RabbitMQ instance
