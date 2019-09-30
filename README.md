@@ -11,6 +11,12 @@ Repository contains 6 labs:
 
 ## Remote RabbitMQ:
 Lab 'tutorial_new' shows an example with connection from another machine
+1. Add new user: https://danielpdev.io/get-started-with-rabbitmq-using-reactjs
+2. Open web interface -> got to 'Admin' (if you are on the same machine http://localhost:15672/#/users)
+3. give that user permission to virtual host "/" (click user's name then click "set permission")
+
+Be careful: web-interface is usually on 15672 and 5672 is for workers!
+Currently only inside one network connection is possible
 
 
 ## Install RabbitMQ
