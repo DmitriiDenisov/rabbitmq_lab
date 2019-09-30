@@ -9,7 +9,8 @@ Repository contains 6 labs:
 </p>
 
 
-And also lab 'tutorial_new' which shows an example with connect from another machine from the same network 
+## Remote RabbitMQ:
+Lab 'tutorial_new' shows an example with connection from another machine
 
 
 ## Install RabbitMQ
