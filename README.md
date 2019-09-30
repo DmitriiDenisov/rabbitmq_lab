@@ -16,7 +16,7 @@ Lab 'tutorial_new' shows an example with connection from another machine
 3. give that user permission to virtual host "/" (click user's name then click "set permission")
 4. (**Another network**) Open port 5672 on your firewall
 
-Be careful: web-interface is usually on 15672 and 5672 is for workers!
+**Be careful: web-interface is usually on 15672 and 5672 is for workers!**
 
 
 ## Install RabbitMQ
