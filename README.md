@@ -24,7 +24,15 @@ https://danielpdev.io/get-started-with-rabbitmq-using-reactjs
 ## Commands
 ```rabbitmqctl stop ``` - stops RabbitMQ instance
 
+```rabbitmq-server start -detached``` - start and detach
+
 ```rabbitmq-server``` - runs RabbitMQ instance
+
+```rabbitmq-server status``` - check if it is already started 
+
+```sudo rabbitmqctl status``` - Get port where rabbitmq is listening. Then see {listeners,...{http 	15672,"::"}...}
+
+```vi /etc/rabbitmq/rabbitmq-env.conf``` - If nothing is there then port is 15672
 
 ## Google Cloud open port
 In order to open RabbitMQ's web interface you need to open port.
