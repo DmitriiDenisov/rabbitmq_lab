@@ -11,8 +11,8 @@ Repository contains 6 labs:
 
 ## Remote RabbitMQ:
 Lab 'tutorial_new' shows an example with connection from another machine
-1. Add new user: https://danielpdev.io/get-started-with-rabbitmq-using-reactjs
-2. Open web interface -> got to 'Admin' (if you are on the same machine http://localhost:15672/#/users)
+1. Add new user: https://danielpdev.io/rabbitmq-default-user-guest-not-working/
+2. Open web interface -> go to 'Admin' (if you are on the same machine http://localhost:15672/#/users)
 3. give that user permission to virtual host "/" (click user's name then click "set permission")
 4. (**Another network**) Open port 5672 on your firewall
 
@@ -26,7 +26,7 @@ Instructions: https://tecadmin.net/install-rabbitmq-server-on-ubuntu/
 Default port of RabbitMQ: 15672. I.e full url would be http://localhost:15672/
 
 if you don’t connect to Rabbit from localhost: ```http://[your droplet’s IP]:15672/``` then you have to create a user, instructions:
-https://danielpdev.io/get-started-with-rabbitmq-using-reactjs
+https://danielpdev.io/rabbitmq-default-user-guest-not-working/
 
 ## Commands
 ```rabbitmqctl stop ``` - stops RabbitMQ instance
